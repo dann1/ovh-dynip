@@ -7,4 +7,4 @@ clean:
 all: clean build
 
 install:
-	sudo ln -s bin/ovh-dynip /usr/bin/
+	sudo cp bin/ovh-dynip /usr/bin/
